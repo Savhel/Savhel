@@ -1,51 +1,52 @@
-<svg width="1280" height="350" viewBox="0 0 1280 350" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1400" height="380" viewBox="0 0 1400 380" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="350" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#050A13"/>
-    <stop offset="0.45" stop-color="#0B1732"/>
-    <stop offset="1" stop-color="#173B8C"/>
+  <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="380" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#020617"/>
+    <stop offset="0.45" stop-color="#0B1734"/>
+    <stop offset="1" stop-color="#312E81"/>
   </linearGradient>
-  <linearGradient id="accent" x1="90" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+  <linearGradient id="accent" x1="80" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
     <stop stop-color="#22D3EE"/>
-    <stop offset="0.5" stop-color="#3B82F6"/>
-    <stop offset="1" stop-color="#8B5CF6"/>
+    <stop offset="0.45" stop-color="#3B82F6"/>
+    <stop offset="1" stop-color="#A855F7"/>
   </linearGradient>
 </defs>
 
-<rect width="1280" height="350" rx="28" fill="url(#bg)"/>
+<rect width="1400" height="380" rx="30" fill="url(#bg)"/>
 
-<g opacity="0.20" stroke="#5EA8FF">
-  <circle cx="1095" cy="92" r="18"/>
-  <circle cx="1180" cy="65" r="13"/>
-  <circle cx="1155" cy="150" r="16"/>
-  <circle cx="1040" cy="174" r="13"/>
-  <circle cx="1202" cy="220" r="11"/>
-  <path d="M1113 87L1167 70M1106 106L1144 140M1052 168L1082 105M1165 164L1194 211M1052 180L1190 218"/>
+<g opacity="0.18" stroke="#60A5FA" stroke-width="1.5">
+  <circle cx="1170" cy="84" r="19"/>
+  <circle cx="1280" cy="72" r="13"/>
+  <circle cx="1240" cy="160" r="17"/>
+  <circle cx="1122" cy="180" r="14"/>
+  <circle cx="1310" cy="240" r="12"/>
+  <circle cx="1188" cy="275" r="10"/>
+  <path d="M1189 80L1267 74M1180 101L1228 149M1136 174L1158 102M1251 176L1302 230M1136 188L1299 238M1200 267L1301 245"/>
 </g>
 
-<g transform="translate(76 66)">
-  <text x="0" y="30" fill="#8FA8D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" letter-spacing="2">
-    SAVHEL // SYSTEMS + INTELLIGENCE
+<g transform="translate(82 70)">
+  <text x="0" y="30" fill="#91A4CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2">
+    SAVHEL // COMPUTING SYSTEMS + INTELLIGENCE
   </text>
 
-  <text x="0" y="105" fill="white" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="800">
+  <text x="0" y="110" fill="white" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="68" font-weight="800">
     SAVIO TSAFACK
   </text>
 
-  <rect x="0" y="126" width="660" height="6" rx="3" fill="url(#accent)"/>
+  <rect x="0" y="134" width="780" height="6" rx="3" fill="url(#accent)"/>
 
-  <text x="0" y="179" fill="#D7E5FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="650">
-    Distributed Systems • Systems Engineering • AI / ML
+  <text x="0" y="190" fill="#E0E7FF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="650">
+    Distributed Systems • Systems Engineering • Intelligent Systems
   </text>
 
-  <text x="0" y="222" fill="#A0B5D9" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">
-    Intelligent Systems • Deep Learning • Adaptive Infrastructure
+  <text x="0" y="234" fill="#B7C8E8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24">
+    AI • Machine Learning • Deep Learning • XAI • Multi-Agent Systems
   </text>
 
-  <text x="0" y="260" fill="#7F96BF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">
-    observe → model → decide → act → learn
+  <text x="0" y="280" fill="#89A2CC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">
+    observe → model → schedule → decide → act → adapt
   </text>
 </g>
 
-<path d="M0 306C226 273 388 325 610 292C829 259 1013 244 1280 282V350H0V306Z" fill="#FFFFFF" fill-opacity="0.025"/>
+<path d="M0 332C242 295 425 350 650 318C890 284 1100 270 1400 307V380H0V332Z" fill="#FFFFFF" fill-opacity="0.025"/>
 </svg>
