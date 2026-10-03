@@ -100,14 +100,15 @@ applied_research:
 
 </div>
 
-## `GitHub signal`
+## `GitHub engineering activity`
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=Savhel&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Savhel&layout=compact&hide_border=true&theme=transparent&langs_count=8" />
+<img src="./assets/github-activity.svg" alt="Savhel GitHub engineering activity" width="100%" />
 
 </div>
+
+<sub>This dashboard is generated inside this repository by GitHub Actions from GitHub's own API. No third-party image service is required at display time.</sub>
 
 ---
 

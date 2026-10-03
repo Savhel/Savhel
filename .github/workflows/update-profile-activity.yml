@@ -1,0 +1,50 @@
+name: Update profile activity
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate_profile_activity.py"
+      - ".github/workflows/update-profile-activity.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate native GitHub activity SVG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_LOGIN: Savhel
+        run: python scripts/generate_profile_activity.py
+
+      - name: Commit refreshed activity dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-activity.svg
+          if git diff --cached --quiet; then
+            echo "No profile activity changes to commit."
+          else
+            git commit -m "chore(profile): refresh GitHub activity"
+            git push
+          fi
