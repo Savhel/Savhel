@@ -49,12 +49,12 @@
   <text x="175" y="328" class="m" font-size="13">events • coordination • scale</text>
 
   <rect x="1045" y="225" width="250" height="120" rx="24" fill="#0F172A" stroke="#3B82F6" stroke-opacity=".40"/>
-  <text x="1075" y="271" class="h" font-size="23">Cloud & Virtualization</text>
+  <text x="1075" y="271" class="h" font-size="23">Cloud &amp; Virtualization</text>
   <text x="1075" y="304" class="s" font-size="16">Proxmox • Xen • Ceph</text>
   <text x="1075" y="328" class="m" font-size="13">placement • migration • HA</text>
 
   <rect x="120" y="495" width="280" height="125" rx="24" fill="#0F172A" stroke="#14B8A6" stroke-opacity=".40"/>
-  <text x="150" y="542" class="h" font-size="23">IoT & Intelligent Sensing</text>
+  <text x="150" y="542" class="h" font-size="23">IoT &amp; Intelligent Sensing</text>
   <text x="150" y="575" class="s" font-size="16">ESP32 • IMU • filtering</text>
   <text x="150" y="599" class="m" font-size="13">wearables • sensor fusion</text>
 

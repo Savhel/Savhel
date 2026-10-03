@@ -66,7 +66,7 @@
     <animate attributeName="width" values="170;620;170" dur="6.5s" repeatCount="indefinite"/>
   </rect>
   <text x="788" y="564" class="h" font-size="28">🧤 Harmony Gloves</text>
-  <text x="788" y="600" fill="#99F6E4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Wearable sensing & intelligent interaction</text>
+  <text x="788" y="600" fill="#99F6E4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Wearable sensing &amp; intelligent interaction</text>
   <text x="788" y="640" class="s" font-size="16">ESP32 • IMU • Flex sensors • ESP-NOW • EMA/IIR • Kalman</text>
   <text x="788" y="668" class="s" font-size="16">Embedded sensing, filtering and gesture-oriented intelligent interfaces.</text>
   <text x="788" y="708" class="m" font-size="13">Embedded  IoT  Sensor Fusion  Filtering  Recognition</text>

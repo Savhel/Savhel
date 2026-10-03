@@ -25,7 +25,7 @@ I am interested in computing systems that can **observe their environment, model
 
 ---
 
-<img src="./assets/adaptive-loop-animated.svg" alt="Adaptive systems loop" width="100%" />
+<img src="./assets/adaptive-loop-animated.svg" alt="Closed-loop intelligent systems architecture" width="100%" />
 
 ---
 
