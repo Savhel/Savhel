@@ -109,10 +109,6 @@ applied_research:
 
 </div>
 
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Savhel&radius=14&hide_border=true&theme=github-compact" />
-</div>
-
 ---
 
 <div align="center">
