@@ -105,18 +105,52 @@ VMs · containers · GPU workloads · platform services
 
 ## Technical toolbox
 
-| Layer | Technologies |
-|---|---|
-| **Languages** | Python · C · C++ · Java · Rust · Dart |
-| **AI & data** | Machine Learning · Deep Learning · NLP · XAI · signal processing |
-| **Embedded** | ESP32 · sensors · IMU · ESP-NOW · filtering · sensor fusion |
-| **Systems** | Linux · threads · processes · scheduling · cgroups · QEMU/KVM |
-| **Virtualization** | Proxmox VE · XCP-ng · Xen · Xen Orchestra · QEMU/KVM |
-| **Cloud & storage** | Ceph · OpenStack concepts · Kubernetes/K3s · Docker · PXE/iPXE |
-| **Networking** | Open vSwitch · VLAN · VXLAN · SDN · pfSense · routing/NAT/DNS |
-| **Distributed data** | Kafka · Redis · Cassandra · event-driven architectures |
-| **Observability** | Prometheus · Grafana · telemetry · performance analysis |
-| **Engineering** | Git · GitHub · automation · experimentation · technical documentation |
+### Languages & engineering
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,c,cpp,java,rust,dart,bash,git,github,linux&amp;theme=dark&amp;perline=10" alt="Python, C, C++, Java, Rust, Dart, Bash, Git, GitHub and Linux" />
+</p>
+
+### AI, data & embedded intelligence
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Machine_Learning-1E5AA8?style=for-the-badge" alt="Machine Learning" />
+  <img src="https://img.shields.io/badge/Deep_Learning-6D28D9?style=for-the-badge" alt="Deep Learning" />
+  <img src="https://img.shields.io/badge/NLP-C8102E?style=for-the-badge" alt="Natural Language Processing" />
+  <img src="https://img.shields.io/badge/XAI-D4A72C?style=for-the-badge" alt="Explainable AI" />
+  <img src="https://img.shields.io/badge/Signal_Processing-9F1239?style=for-the-badge" alt="Signal Processing" />
+  <img src="https://img.shields.io/badge/ESP32-1E5AA8?style=for-the-badge&amp;logo=espressif&amp;logoColor=white" alt="ESP32" />
+  <img src="https://img.shields.io/badge/IMU_%26_Sensors-6D28D9?style=for-the-badge" alt="IMU and sensors" />
+  <img src="https://img.shields.io/badge/Sensor_Fusion-C8102E?style=for-the-badge" alt="Sensor fusion" />
+</p>
+
+### Virtualization, cloud & storage
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Proxmox_VE-E57000?style=for-the-badge&amp;logo=proxmox&amp;logoColor=white" alt="Proxmox VE" />
+  <img src="https://img.shields.io/badge/XCP--ng-1E5AA8?style=for-the-badge" alt="XCP-ng" />
+  <img src="https://img.shields.io/badge/Xen-6D28D9?style=for-the-badge&amp;logo=xen&amp;logoColor=white" alt="Xen" />
+  <img src="https://img.shields.io/badge/Xen_Orchestra-C8102E?style=for-the-badge" alt="Xen Orchestra" />
+  <img src="https://img.shields.io/badge/QEMU%20%2F%20KVM-D4A72C?style=for-the-badge&amp;logo=qemu&amp;logoColor=white" alt="QEMU and KVM" />
+  <img src="https://img.shields.io/badge/Ceph-EF5C55?style=for-the-badge&amp;logo=ceph&amp;logoColor=white" alt="Ceph" />
+  <img src="https://img.shields.io/badge/OpenStack-ED1944?style=for-the-badge&amp;logo=openstack&amp;logoColor=white" alt="OpenStack" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=white" alt="Kubernetes and K3s" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/PXE%20%2F%20iPXE-9F1239?style=for-the-badge" alt="PXE and iPXE" />
+</p>
+
+### Networking, distributed data & observability
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open_vSwitch-1E5AA8?style=for-the-badge" alt="Open vSwitch" />
+  <img src="https://img.shields.io/badge/VLAN_%C2%B7_VXLAN_%C2%B7_SDN-6D28D9?style=for-the-badge" alt="VLAN, VXLAN and SDN" />
+  <img src="https://img.shields.io/badge/pfSense-C8102E?style=for-the-badge&amp;logo=pfsense&amp;logoColor=white" alt="pfSense" />
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&amp;logo=apachekafka&amp;logoColor=white" alt="Apache Kafka" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&amp;logo=redis&amp;logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Cassandra-1287B1?style=for-the-badge&amp;logo=apachecassandra&amp;logoColor=white" alt="Apache Cassandra" />
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&amp;logo=prometheus&amp;logoColor=white" alt="Prometheus" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&amp;logo=grafana&amp;logoColor=white" alt="Grafana" />
+</p>
 
 ## Current directions
 
