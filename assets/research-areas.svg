@@ -1,0 +1,66 @@
+<svg width="1400" height="520" viewBox="0 0 1400 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="520">
+    <stop stop-color="#0B1020"/>
+    <stop offset="1" stop-color="#101A35"/>
+  </linearGradient>
+  <style>
+    .box{fill:#0F172A;stroke:rgba(255,255,255,.10);}
+    .title{fill:#fff;font-family:Inter,Segoe UI,Arial,sans-serif;font-size:22px;font-weight:800;}
+    .txt{fill:#CBD5E1;font-family:Inter,Segoe UI,Arial,sans-serif;font-size:16px;}
+  </style>
+</defs>
+<rect width="1400" height="520" rx="26" fill="url(#bg)"/>
+<text x="60" y="58" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="32" font-weight="800">Research areas</text>
+<text x="60" y="86" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">A more visual summary of the spaces I explore.</text>
+
+<g>
+  <rect x="60" y="120" width="300" height="150" rx="22" class="box"/>
+  <rect x="60" y="120" width="300" height="6" rx="3" fill="#22D3EE"/>
+  <text x="90" y="168" class="title">Distributed Systems</text>
+  <text x="90" y="202" class="txt">resource scheduling • distributed data</text>
+  <text x="90" y="226" class="txt">event-driven design • fault-aware systems</text>
+</g>
+<g>
+  <rect x="390" y="120" width="300" height="150" rx="22" class="box"/>
+  <rect x="390" y="120" width="300" height="6" rx="3" fill="#3B82F6"/>
+  <text x="420" y="168" class="title">Systems Engineering</text>
+  <text x="420" y="202" class="txt">OS • scheduling • memory • concurrency</text>
+  <text x="420" y="226" class="txt">syscalls • monitoring • control loops</text>
+</g>
+<g>
+  <rect x="720" y="120" width="300" height="150" rx="22" class="box"/>
+  <rect x="720" y="120" width="300" height="6" rx="3" fill="#8B5CF6"/>
+  <text x="750" y="168" class="title">Artificial Intelligence</text>
+  <text x="750" y="202" class="txt">ML • Deep Learning • XAI</text>
+  <text x="750" y="226" class="txt">NLP • recommendation • intelligent control</text>
+</g>
+<g>
+  <rect x="1050" y="120" width="300" height="150" rx="22" class="box"/>
+  <rect x="1050" y="120" width="300" height="6" rx="3" fill="#06B6D4"/>
+  <text x="1080" y="168" class="title">Cloud & Virtualization</text>
+  <text x="1080" y="202" class="txt">Proxmox • Xen / XCP-ng • Ceph</text>
+  <text x="1080" y="226" class="txt">SDN • Kubernetes • automated deployment</text>
+</g>
+<g>
+  <rect x="225" y="315" width="300" height="150" rx="22" class="box"/>
+  <rect x="225" y="315" width="300" height="6" rx="3" fill="#0EA5E9"/>
+  <text x="255" y="363" class="title">Signal & Radar Intelligence</text>
+  <text x="255" y="397" class="txt">micro-Doppler • spectrograms</text>
+  <text x="255" y="421" class="txt">classification • physically grounded XAI</text>
+</g>
+<g>
+  <rect x="555" y="315" width="300" height="150" rx="22" class="box"/>
+  <rect x="555" y="315" width="300" height="6" rx="3" fill="#A855F7"/>
+  <text x="585" y="363" class="title">Intelligent Infrastructure</text>
+  <text x="585" y="397" class="txt">GPUaaS • multi-agent supervision</text>
+  <text x="585" y="421" class="txt">adaptive placement • autonomous orchestration</text>
+</g>
+<g>
+  <rect x="885" y="315" width="300" height="150" rx="22" class="box"/>
+  <rect x="885" y="315" width="300" height="6" rx="3" fill="#14B8A6"/>
+  <text x="915" y="363" class="title">IoT & Embedded Sensing</text>
+  <text x="915" y="397" class="txt">ESP32 • wearables • filtering</text>
+  <text x="915" y="421" class="txt">sensor fusion • gesture recognition</text>
+</g>
+</svg>

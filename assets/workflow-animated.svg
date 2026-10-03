@@ -1,0 +1,41 @@
+<svg width="1400" height="260" viewBox="0 0 1400 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="260">
+    <stop stop-color="#0B1020"/>
+    <stop offset="1" stop-color="#111D42"/>
+  </linearGradient>
+  <linearGradient id="stepg" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#0F172A"/>
+    <stop offset="1" stop-color="#111827"/>
+  </linearGradient>
+  <style>
+    .card{fill:url(#stepg);stroke:rgba(255,255,255,.10);}
+    .t1{fill:#fff;font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:700;font-size:22px;}
+    .t2{fill:#A5B4FC;font-family:Inter,Segoe UI,Arial,sans-serif;font-size:14px;}
+  </style>
+</defs>
+<rect width="1400" height="260" rx="24" fill="url(#bg)"/>
+<text x="60" y="52" fill="#E5E7EB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="30" font-weight="800">My research workflow</text>
+<text x="60" y="80" fill="#94A3B8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">How I think about intelligent infrastructure and adaptive systems.</text>
+
+<g>
+  <rect x="55" y="120" width="160" height="90" rx="20" class="card"/><text x="135" y="156" text-anchor="middle" class="t1">Observe</text><text x="135" y="181" text-anchor="middle" class="t2">monitor • sense • collect</text>
+  <rect x="280" y="120" width="160" height="90" rx="20" class="card"/><text x="360" y="156" text-anchor="middle" class="t1">Model</text><text x="360" y="181" text-anchor="middle" class="t2">data • abstractions • state</text>
+  <rect x="505" y="120" width="160" height="90" rx="20" class="card"/><text x="585" y="156" text-anchor="middle" class="t1">Predict</text><text x="585" y="181" text-anchor="middle" class="t2">ML • analytics • estimation</text>
+  <rect x="730" y="120" width="160" height="90" rx="20" class="card"/><text x="810" y="156" text-anchor="middle" class="t1">Decide</text><text x="810" y="181" text-anchor="middle" class="t2">policy • planning • priority</text>
+  <rect x="955" y="120" width="160" height="90" rx="20" class="card"/><text x="1035" y="156" text-anchor="middle" class="t1">Act</text><text x="1035" y="181" text-anchor="middle" class="t2">schedule • migrate • enforce</text>
+  <rect x="1180" y="120" width="160" height="90" rx="20" class="card"/><text x="1260" y="156" text-anchor="middle" class="t1">Adapt</text><text x="1260" y="181" text-anchor="middle" class="t2">evaluate • learn • improve</text>
+</g>
+
+<g stroke="#60A5FA" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12" opacity="0.7">
+  <path d="M215 165H280"/>
+  <path d="M440 165H505"/>
+  <path d="M665 165H730"/>
+  <path d="M890 165H955"/>
+  <path d="M1115 165H1180"/>
+</g>
+
+<circle r="6" fill="#22D3EE"><animateMotion dur="7s" repeatCount="indefinite" path="M215 165H280 440 505 665 730 890 955 1115 1180"/></circle>
+<circle r="6" fill="#A855F7"><animateMotion dur="7s" begin="2.2s" repeatCount="indefinite" path="M215 165H280 440 505 665 730 890 955 1115 1180"/></circle>
+<circle r="6" fill="#60A5FA"><animateMotion dur="7s" begin="4.4s" repeatCount="indefinite" path="M215 165H280 440 505 665 730 890 955 1115 1180"/></circle>
+</svg>
