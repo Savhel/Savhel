@@ -1,121 +1,105 @@
 <div align="center">
 
-<img src="./assets/hero-animated.svg" alt="Savio Tsafack — Systems + Intelligence" width="100%" />
+<img src="./assets/hero-animated.svg" alt="Savio Tsafack — Embedded AI and Intelligent Systems Engineer" width="100%" />
 
-<br/><br/>
+<br />
 
-<img src="https://img.shields.io/badge/Distributed%20Systems-0F172A?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Systems%20Engineering-111827?style=for-the-badge" />
-<img src="https://img.shields.io/badge/AI%20%7C%20ML%20%7C%20DL-1D4ED8?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Intelligent%20Systems-4F46E5?style=for-the-badge" />
-<img src="https://img.shields.io/badge/XAI%20%7C%20Radar%20AI-7C3AED?style=for-the-badge" />
-<img src="https://img.shields.io/badge/GPUaaS%20%7C%20Cloud%20Infra-0EA5E9?style=for-the-badge" />
+[![Embedded Systems](https://img.shields.io/badge/Embedded_Systems-C8102E?style=for-the-badge)](#engineering-focus)
+[![Expert Systems](https://img.shields.io/badge/Expert_Systems-1E5AA8?style=for-the-badge)](#engineering-focus)
+[![Machine Learning](https://img.shields.io/badge/Machine_Learning-D4A72C?style=for-the-badge)](#engineering-focus)
+[![Deep Learning](https://img.shields.io/badge/Deep_Learning-6D28D9?style=for-the-badge)](#engineering-focus)
+[![Signal Intelligence](https://img.shields.io/badge/Signal_Intelligence-9F1239?style=for-the-badge)](#engineering-focus)
+
+### Computer Engineer · Embedded AI · Intelligent & Expert Systems
+
+I build systems that **sense, reason, decide and act** — from embedded sensing and signal processing to machine learning, deep learning and intelligent infrastructure.
 
 </div>
 
-## `About`
+## About me
 
-I am **Savio Tsafack (@Savhel)**, a computer engineering student focused on **distributed systems, systems engineering, intelligent infrastructure and artificial intelligence**.
+I'm **Savio Tsafack** (`@Savhel`), a computer engineer interested in the point where **software meets the physical world and intelligence becomes operational**.
 
-I am interested in computing systems that can **observe their environment, model state, make decisions, allocate resources, adapt and scale**.
+My work combines embedded devices, data and learning algorithms with strong systems-engineering foundations. I enjoy taking an idea through the complete engineering cycle: acquiring signals, building reliable software, training or designing the decision layer, then deploying and evaluating the resulting system under real constraints.
 
----
-
-<img src="./assets/engineering-orbit-animated.svg" alt="Engineering orbit" width="100%" />
-
----
-
-<img src="./assets/adaptive-loop-animated.svg" alt="Closed-loop intelligent systems architecture" width="100%" />
-
----
-
-<img src="./assets/flagship-projects.svg" alt="Flagship projects" width="100%" />
-
----
-
-<img src="./assets/research-matrix.svg" alt="Research matrix" width="100%" />
-
----
-
-## `Core direction`
-
-```yaml
-distributed_systems:
-  - event-driven architectures
-  - distributed data
-  - resource scheduling
-  - cluster orchestration
-  - distributed storage
-
-systems:
-  - operating systems
-  - scheduling
-  - concurrency
-  - memory management
-  - virtualization
-  - performance control
-
-intelligent_systems:
-  - AI / ML / Deep Learning
-  - Explainable AI
-  - expert & multi-agent systems
-  - intelligent infrastructure
-  - autonomous orchestration
-
-applied_research:
-  - radar micro-Doppler classification
-  - signal processing
-  - wearable sensing
-  - GPU-as-a-Service
+```text
+SENSE  →  PROCESS  →  LEARN / REASON  →  DECIDE  →  ACT  →  IMPROVE
 ```
 
-## `Selected repositories`
+## Engineering focus
 
-| Project | Focus |
+| Area | What I work on |
 |---|---|
-| 🛰️ [Omega_FusionCore_Proxmox](https://github.com/Savhel/Omega_FusionCore_Proxmox) | Distributed resource management, virtualization, Ceph, scheduling, migration, GPUaaS |
-| 🌐 [ProjetReseau](https://github.com/Savhel/ProjetReseau) | Kafka, Cassandra, Redis, event-driven resource services |
-| 🧵 [simulation_capteurs](https://github.com/Savhel/simulation_capteurs) | Concurrency, synchronization, queues, dynamic scheduling |
-| ⚙️ [SimulationDePlanificationDesProcessus](https://github.com/Savhel/SimulationDePlanificationDesProcessus) | Process scheduling and operating-systems concepts |
-| 🧠 [AnalyseDesSentiments](https://github.com/Savhel/AnalyseDesSentiments) | NLP / Machine Learning workspace |
-| 📡 [Traitement-du-signal](https://github.com/Savhel/Traitement-du-signal) | Signal-processing workspace |
-| 🔐 [alanya_app](https://github.com/Savhel/alanya_app) | Secure real-time communication |
+| **Embedded & IoT systems** | ESP32-based devices, sensors, wearable interfaces, low-level communication, filtering and sensor fusion |
+| **Intelligent & expert systems** | Knowledge-driven decision systems, adaptive control, multi-agent approaches and autonomous orchestration |
+| **AI, ML & Deep Learning** | Classification, NLP, neural networks, explainable AI and learning from physical signals |
+| **Signal intelligence** | Signal processing, radar micro-Doppler analysis, spectrograms and interpretable models |
+| **Systems engineering** | Linux, concurrency, scheduling, virtualization, distributed services and resource management |
 
-## `Technology stack`
+## Featured work
+
+### 🛰️ [Omega FusionCore](https://github.com/Savhel/Omega_FusionCore_Proxmox)
+
+An intelligent resource-management layer for virtualized infrastructure. The project explores telemetry-driven scheduling, remote memory, VM migration, GPU allocation and adaptive placement across Proxmox and Ceph clusters.
+
+`Python` `Linux` `Proxmox` `Ceph` `cgroups` `GPU orchestration`
+
+### 📡 [Signal Processing](https://github.com/Savhel/Traitement-du-signal)
+
+A workspace for extracting useful information from signals and connecting classical processing techniques with machine-learning workflows.
+
+`Signal processing` `Feature extraction` `Classification` `Python`
+
+### 🧠 [Sentiment Analysis](https://github.com/Savhel/AnalyseDesSentiments)
+
+An applied NLP and machine-learning project focused on turning unstructured text into measurable sentiment predictions.
+
+`NLP` `Machine Learning` `Data analysis` `Python`
+
+### 🧵 [Concurrent Sensor Simulation](https://github.com/Savhel/simulation_capteurs)
+
+A C++ simulation of sensor producers, synchronized queues and dynamic scheduling policies — combining embedded-system thinking with concurrency and performance analysis.
+
+`C++20` `Threads` `Synchronization` `Sensors` `Scheduling`
+
+<details>
+<summary><strong>More systems projects</strong></summary>
+
+<br />
+
+- [ProjetReseau](https://github.com/Savhel/ProjetReseau) — event-driven services with Java, Spring Boot, Kafka, Cassandra and Redis.
+- [SimulationDePlanificationDesProcessus](https://github.com/Savhel/SimulationDePlanificationDesProcessus) — process-scheduling algorithms and operating-system concepts.
+- [alanya_app](https://github.com/Savhel/alanya_app) — secure real-time communication application.
+
+</details>
+
+## Technical toolbox
+
+| Layer | Technologies |
+|---|---|
+| **Languages** | Python · C · C++ · Java · Rust · Dart |
+| **AI & data** | Machine Learning · Deep Learning · NLP · XAI · signal processing |
+| **Embedded** | ESP32 · sensors · IMU · ESP-NOW · filtering · sensor fusion |
+| **Systems** | Linux · threads · processes · scheduling · cgroups · QEMU/KVM |
+| **Distributed & cloud** | Kafka · Redis · Cassandra · Docker · Kubernetes · Proxmox · Ceph |
+| **Engineering** | Git · GitHub · monitoring · experimentation · technical documentation |
+
+## Current directions
+
+- Edge AI and intelligent embedded devices
+- Expert and multi-agent decision systems
+- Deep learning for signal and radar intelligence
+- Explainable models for safety-critical or physically grounded applications
+- Adaptive resource management for AI workloads
+
+## Let's connect
+
+I am open to engineering and research collaborations around **embedded intelligence, expert systems, AI/ML, signal processing and adaptive computing systems**.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,java,cpp,c,rust,linux,docker,kubernetes,spring,postgres,redis,git,github,dart&perline=7" />
+[![GitHub](https://img.shields.io/badge/GitHub-Savhel-181717?style=for-the-badge&logo=github)](https://github.com/Savhel)
 
-<br/>
-
-<img src="https://img.shields.io/badge/Proxmox-Virtualization-E57000?style=flat-square" />
-<img src="https://img.shields.io/badge/XCP--ng-Xen-4B5563?style=flat-square" />
-<img src="https://img.shields.io/badge/Ceph-Distributed%20Storage-EF5C55?style=flat-square" />
-<img src="https://img.shields.io/badge/Kafka-Event%20Streaming-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
-<img src="https://img.shields.io/badge/Cassandra-Distributed%20DB-1287B1?style=flat-square&logo=apachecassandra&logoColor=white" />
-<img src="https://img.shields.io/badge/Prometheus-Observability-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
-<img src="https://img.shields.io/badge/CUDA-GPU%20Computing-76B900?style=flat-square&logo=nvidia&logoColor=white" />
-<img src="https://img.shields.io/badge/Open%20vSwitch-SDN-1F2937?style=flat-square" />
-
-</div>
-
-## `GitHub engineering activity`
-
-<div align="center">
-
-<img src="./assets/github-activity.svg" alt="Savhel GitHub engineering activity" width="100%" />
-
-</div>
-
-<sub>This dashboard is generated inside this repository by GitHub Actions from GitHub's own API. No third-party image service is required at display time.</sub>
-
----
-
-<div align="center">
-
-### `DISTRIBUTED SYSTEMS • SYSTEMS • AI • ML • DL • XAI • INTELLIGENT INFRASTRUCTURE`
-
-<sub>Observe. Model. Decide. Act. Adapt.</sub>
+<sub>Engineering systems that turn data into reliable decisions.</sub>
 
 </div>

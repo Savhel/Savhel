@@ -1,22 +1,22 @@
 <svg width="1440" height="460" viewBox="0 0 1440 460" fill="none" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="460">
-    <stop offset="0%" stop-color="#020617"/>
-    <stop offset="45%" stop-color="#0A1633"/>
-    <stop offset="100%" stop-color="#312E81"/>
+    <stop offset="0%" stop-color="#030712"/>
+    <stop offset="48%" stop-color="#081D3A"/>
+    <stop offset="100%" stop-color="#3B0914"/>
   </linearGradient>
   <linearGradient id="accent" x1="0" y1="0" x2="900" y2="0">
-    <stop offset="0%" stop-color="#22D3EE"/>
-    <stop offset="45%" stop-color="#3B82F6"/>
-    <stop offset="100%" stop-color="#A855F7"/>
+    <stop offset="0%" stop-color="#C8102E"/>
+    <stop offset="48%" stop-color="#F5C542"/>
+    <stop offset="100%" stop-color="#2563EB"/>
   </linearGradient>
   <radialGradient id="orbA" cx="0" cy="0" r="1" gradientTransform="translate(1170 100) rotate(90) scale(180)">
-    <stop stop-color="#38BDF8" stop-opacity=".26"/>
-    <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    <stop stop-color="#3B82F6" stop-opacity=".30"/>
+    <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="orbB" cx="0" cy="0" r="1" gradientTransform="translate(1270 330) rotate(90) scale(220)">
-    <stop stop-color="#A855F7" stop-opacity=".17"/>
-    <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    <stop stop-color="#C8102E" stop-opacity=".24"/>
+    <stop offset="1" stop-color="#C8102E" stop-opacity="0"/>
   </radialGradient>
   <filter id="glow">
     <feGaussianBlur stdDeviation="8" result="b"/>
@@ -40,7 +40,7 @@
 </g>
 
 <!-- neural/network constellation -->
-<g stroke="#7DD3FC" stroke-opacity=".30" fill="none">
+<g stroke="#F5C542" stroke-opacity=".38" fill="none">
   <circle cx="1110" cy="86" r="18"/>
   <circle cx="1210" cy="70" r="13"/>
   <circle cx="1295" cy="118" r="15"/>
@@ -61,16 +61,16 @@
 </g>
 
 <!-- moving packets -->
-<circle r="5" fill="#22D3EE" filter="url(#glow)">
+<circle r="5" fill="#F5C542" filter="url(#glow)">
   <animateMotion dur="6s" repeatCount="indefinite" path="M1128 83L1197 72L1282 112L1286 214"/>
 </circle>
-<circle r="4" fill="#A855F7" filter="url(#glow)">
+<circle r="4" fill="#E31B36" filter="url(#glow)">
   <animateMotion dur="7.5s" repeatCount="indefinite" path="M1116 243L1206 295L1315 326"/>
 </circle>
 
 <g transform="translate(86 72)">
-  <text x="0" y="30" fill="#92A8D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2.5">
-    SAVHEL // SYSTEMS + INTELLIGENCE
+  <text x="0" y="30" fill="#F5C542" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="2.5">
+    SAVHEL // EMBEDDED AI + INTELLIGENT SYSTEMS
   </text>
 
   <text x="0" y="118" fill="white" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="72" font-weight="850">
@@ -82,29 +82,29 @@
   </rect>
 
   <text x="0" y="205" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">
-    Distributed Systems • Systems Engineering • Intelligent Systems
+    Embedded Systems • Expert Systems • Intelligent Computing
   </text>
 
-  <text x="0" y="250" fill="#C7D2FE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">
-    AI • Machine Learning • Deep Learning • XAI • Multi-Agent Systems
+  <text x="0" y="250" fill="#BFD7FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25">
+    Machine Learning • Deep Learning • Signal Intelligence • XAI
   </text>
 
-  <text x="0" y="302" fill="#8EA7D4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">
-    observe → model → schedule → decide → act → adapt
+  <text x="0" y="302" fill="#D5B85A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">
+    sense → process → learn / reason → decide → act
   </text>
 
   <g transform="translate(0 340)">
-    <rect x="0" y="0" width="190" height="38" rx="19" fill="#0EA5E9" fill-opacity=".15" stroke="#38BDF8" stroke-opacity=".62"/>
-    <text x="95" y="24" text-anchor="middle" fill="#CFFAFE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Distributed Computing</text>
+    <rect x="0" y="0" width="190" height="38" rx="19" fill="#C8102E" fill-opacity=".18" stroke="#F04455" stroke-opacity=".78"/>
+    <text x="95" y="24" text-anchor="middle" fill="#FFE4E6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Embedded Systems</text>
 
-    <rect x="205" y="0" width="190" height="38" rx="19" fill="#2563EB" fill-opacity=".15" stroke="#60A5FA" stroke-opacity=".62"/>
-    <text x="300" y="24" text-anchor="middle" fill="#DBEAFE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Intelligent Infrastructure</text>
+    <rect x="205" y="0" width="190" height="38" rx="19" fill="#1E5AA8" fill-opacity=".20" stroke="#60A5FA" stroke-opacity=".78"/>
+    <text x="300" y="24" text-anchor="middle" fill="#DBEAFE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Expert Systems</text>
 
-    <rect x="410" y="0" width="142" height="38" rx="19" fill="#8B5CF6" fill-opacity=".15" stroke="#A78BFA" stroke-opacity=".62"/>
-    <text x="481" y="24" text-anchor="middle" fill="#EDE9FE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Radar + XAI</text>
+    <rect x="410" y="0" width="142" height="38" rx="19" fill="#6D28D9" fill-opacity=".20" stroke="#A78BFA" stroke-opacity=".78"/>
+    <text x="481" y="24" text-anchor="middle" fill="#F3E8FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Deep Learning</text>
 
-    <rect x="567" y="0" width="132" height="38" rx="19" fill="#06B6D4" fill-opacity=".15" stroke="#67E8F9" stroke-opacity=".62"/>
-    <text x="633" y="24" text-anchor="middle" fill="#CFFAFE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">GPUaaS</text>
+    <rect x="567" y="0" width="132" height="38" rx="19" fill="#F5C542" fill-opacity=".16" stroke="#F7D774" stroke-opacity=".82"/>
+    <text x="633" y="24" text-anchor="middle" fill="#FFF4C2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">Edge AI</text>
   </g>
 </g>
 
