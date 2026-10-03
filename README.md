@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero-animated.svg" alt="Savio Tsafack — Embedded AI and Intelligent Systems Engineer" width="100%" />
+<img src="./assets/hero-animated.svg" alt="Savio Tsafack — Intelligent Systems, AI and Virtualization Engineer" width="100%" />
 
 <br />
 
@@ -8,11 +8,11 @@
 [![Expert Systems](https://img.shields.io/badge/Expert_Systems-1E5AA8?style=for-the-badge)](#engineering-focus)
 [![Machine Learning](https://img.shields.io/badge/Machine_Learning-D4A72C?style=for-the-badge)](#engineering-focus)
 [![Deep Learning](https://img.shields.io/badge/Deep_Learning-6D28D9?style=for-the-badge)](#engineering-focus)
-[![Signal Intelligence](https://img.shields.io/badge/Signal_Intelligence-9F1239?style=for-the-badge)](#engineering-focus)
+[![Virtualization](https://img.shields.io/badge/Cloud_%26_Virtualization-9F1239?style=for-the-badge)](#gandal--omega-intelligent-infrastructure)
 
-### Computer Engineer · Embedded AI · Intelligent & Expert Systems
+### Computer Engineer · Intelligent Systems · AI · Virtualization & Cloud
 
-I build systems that **sense, reason, decide and act** — from embedded sensing and signal processing to machine learning, deep learning and intelligent infrastructure.
+I build systems that **sense, reason, decide and adapt** — from embedded sensing and deep learning to virtualized datacenters and intelligent resource orchestration.
 
 </div>
 
@@ -20,7 +20,7 @@ I build systems that **sense, reason, decide and act** — from embedded sensing
 
 I'm **Savio Tsafack** (`@Savhel`), a computer engineer interested in the point where **software meets the physical world and intelligence becomes operational**.
 
-My work combines embedded devices, data and learning algorithms with strong systems-engineering foundations. I enjoy taking an idea through the complete engineering cycle: acquiring signals, building reliable software, training or designing the decision layer, then deploying and evaluating the resulting system under real constraints.
+My work combines embedded devices, data and learning algorithms with systems engineering, virtualization and distributed infrastructure. I enjoy taking an idea through the complete engineering cycle: acquiring signals, building reliable software, designing the decision layer, then deploying and evaluating the resulting system under real constraints.
 
 ```text
 SENSE  →  PROCESS  →  LEARN / REASON  →  DECIDE  →  ACT  →  IMPROVE
@@ -34,15 +34,16 @@ SENSE  →  PROCESS  →  LEARN / REASON  →  DECIDE  →  ACT  →  IMPROVE
 | **Intelligent & expert systems** | Knowledge-driven decision systems, adaptive control, multi-agent approaches and autonomous orchestration |
 | **AI, ML & Deep Learning** | Classification, NLP, neural networks, explainable AI and learning from physical signals |
 | **Signal intelligence** | Signal processing, radar micro-Doppler analysis, spectrograms and interpretable models |
-| **Systems engineering** | Linux, concurrency, scheduling, virtualization, distributed services and resource management |
+| **Virtualization & cloud** | Proxmox, XCP-ng/Xen, Xen Orchestra, QEMU/KVM, Ceph, SDN and cloud control planes |
+| **Systems engineering** | Linux, concurrency, scheduling, distributed services, observability and resource management |
 
 ## Featured work
 
 ### 🛰️ [Omega FusionCore](https://github.com/Savhel/Omega_FusionCore_Proxmox)
 
-An intelligent resource-management layer for virtualized infrastructure. The project explores telemetry-driven scheduling, remote memory, VM migration, GPU allocation and adaptive placement across Proxmox and Ceph clusters.
+An intelligent resource-management layer for virtualized infrastructure. The project explores telemetry-driven scheduling, remote memory, elastic vCPU allocation, VM migration, GPU allocation and adaptive placement across Proxmox and Ceph clusters.
 
-`Python` `Linux` `Proxmox` `Ceph` `cgroups` `GPU orchestration`
+`Python` `Linux` `Proxmox` `QEMU/KVM` `Ceph` `cgroups v2` `GPUaaS`
 
 ### 📡 [Signal Processing](https://github.com/Savhel/Traitement-du-signal)
 
@@ -73,6 +74,35 @@ A C++ simulation of sensor producers, synchronized queues and dynamic scheduling
 
 </details>
 
+## GANDAL & Omega: intelligent infrastructure
+
+**GANDAL** is the broader datacenter and cloud-engineering initiative; **Omega FusionCore** is its intelligent resource layer. Together, they connect low-level infrastructure with telemetry, policy and adaptive decision-making.
+
+```text
+PHYSICAL NODES
+      ↓
+VIRTUALIZATION — Proxmox · XCP-ng/Xen · Xen Orchestra · QEMU/KVM
+      ↓
+DISTRIBUTED RESOURCES — CPU · RAM · GPU · Ceph storage · network
+      ↓
+CONTROL PLANE — monitoring · policies · scheduling · migration
+      ↓
+OMEGA INTELLIGENCE — observe · decide · allocate · rebalance · verify
+      ↓
+VMs · containers · GPU workloads · platform services
+```
+
+| Domain | Themes explored in GANDAL / Omega |
+|---|---|
+| **Compute & virtualization** | Proxmox VE, XCP-ng, Xen, Xen Orchestra, QEMU/KVM, VM lifecycle, high availability and live migration |
+| **Distributed storage** | Ceph RBD, CephFS, shared storage, replication and storage-aware placement |
+| **Networking & SDN** | Open vSwitch, VLAN, VXLAN, SDN, pfSense, routing, NAT and DNS |
+| **Cloud platform** | Kubernetes/K3s, container registry, IAM, platform services and OpenStack control-plane concepts |
+| **Automated infrastructure** | PXE/iPXE provisioning, reproducible deployment, node validation and automated pool joining |
+| **Intelligent resources** | Remote memory, vCPU scheduling, CPU/RAM/GPU-aware placement, migration, quotas and admission control |
+| **GPU-as-a-Service** | GPU workers, job queues, logical VRAM budgets, priorities, remote execution and multi-tenant accounting |
+| **Observability** | Prometheus/Grafana-style telemetry, infrastructure metrics, workload monitoring and policy evaluation |
+
 ## Technical toolbox
 
 | Layer | Technologies |
@@ -81,8 +111,12 @@ A C++ simulation of sensor producers, synchronized queues and dynamic scheduling
 | **AI & data** | Machine Learning · Deep Learning · NLP · XAI · signal processing |
 | **Embedded** | ESP32 · sensors · IMU · ESP-NOW · filtering · sensor fusion |
 | **Systems** | Linux · threads · processes · scheduling · cgroups · QEMU/KVM |
-| **Distributed & cloud** | Kafka · Redis · Cassandra · Docker · Kubernetes · Proxmox · Ceph |
-| **Engineering** | Git · GitHub · monitoring · experimentation · technical documentation |
+| **Virtualization** | Proxmox VE · XCP-ng · Xen · Xen Orchestra · QEMU/KVM |
+| **Cloud & storage** | Ceph · OpenStack concepts · Kubernetes/K3s · Docker · PXE/iPXE |
+| **Networking** | Open vSwitch · VLAN · VXLAN · SDN · pfSense · routing/NAT/DNS |
+| **Distributed data** | Kafka · Redis · Cassandra · event-driven architectures |
+| **Observability** | Prometheus · Grafana · telemetry · performance analysis |
+| **Engineering** | Git · GitHub · automation · experimentation · technical documentation |
 
 ## Current directions
 
@@ -91,10 +125,12 @@ A C++ simulation of sensor producers, synchronized queues and dynamic scheduling
 - Deep learning for signal and radar intelligence
 - Explainable models for safety-critical or physically grounded applications
 - Adaptive resource management for AI workloads
+- Proxmox-to-XCP-ng/Xen architecture and migration strategies
+- GPU-as-a-Service and autonomous datacenter operations
 
 ## Let's connect
 
-I am open to engineering and research collaborations around **embedded intelligence, expert systems, AI/ML, signal processing and adaptive computing systems**.
+I am open to engineering and research collaborations around **embedded intelligence, expert systems, AI/ML, virtualization, cloud infrastructure, signal processing and adaptive computing systems**.
 
 <div align="center">
 
