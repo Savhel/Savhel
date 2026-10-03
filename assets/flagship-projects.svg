@@ -1,0 +1,75 @@
+<svg width="1440" height="920" viewBox="0 0 1440 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="920">
+    <stop stop-color="#08101D"/>
+    <stop offset="1" stop-color="#101A35"/>
+  </linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity=".30"/></filter>
+  <style>
+    .card{fill:#0F172A;stroke:rgba(255,255,255,.10)}
+    .h{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:800;fill:#F8FAFC}
+    .s{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#CBD5E1}
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#94A3B8}
+    .tag{fill:#111827;stroke:rgba(255,255,255,.10)}
+  </style>
+</defs>
+<rect width="1440" height="920" rx="30" fill="url(#bg)"/>
+<text x="70" y="62" class="h" font-size="34">Flagship Work</text>
+<text x="70" y="94" class="s" font-size="18">Projects and research directions that best represent my profile.</text>
+
+<!-- 1 Omega -->
+<g filter="url(#shadow)">
+  <rect x="70" y="135" width="620" height="320" rx="26" class="card"/>
+  <rect x="70" y="135" width="620" height="8" rx="4" fill="#22D3EE">
+    <animate attributeName="width" values="150;620;150" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  <text x="108" y="194" class="h" font-size="28">🛰️ Omega FusionCore / GANDAL</text>
+  <text x="108" y="230" fill="#67E8F9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Distributed resource orchestration</text>
+  <text x="108" y="270" class="s" font-size="16">Remote memory • vCPU scheduling • migration • GPU placement • Ceph</text>
+  <text x="108" y="298" class="s" font-size="16">An intelligent resource layer for multi-node virtualized infrastructure.</text>
+  <text x="108" y="338" class="m" font-size="13">Linux  Proxmox  Ceph  cgroups  userfaultfd  GPUaaS</text>
+  <text x="108" y="390" fill="#A5F3FC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Systems + Distributed Computing + Intelligent Infrastructure</text>
+</g>
+
+<!-- 2 ProjetReseau -->
+<g filter="url(#shadow)">
+  <rect x="750" y="135" width="620" height="320" rx="26" class="card"/>
+  <rect x="750" y="135" width="620" height="8" rx="4" fill="#3B82F6">
+    <animate attributeName="width" values="180;620;180" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <text x="788" y="194" class="h" font-size="28">🌐 ProjetReseau</text>
+  <text x="788" y="230" fill="#93C5FD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Event-driven distributed services</text>
+  <text x="788" y="270" class="s" font-size="16">Kafka • Cassandra • Redis • Prometheus • Spring Boot</text>
+  <text x="788" y="298" class="s" font-size="16">Asynchronous workflows, distributed data, caching and observability.</text>
+  <text x="788" y="338" class="m" font-size="13">Java 21  Spring Boot  Kafka  Cassandra  Redis  Docker</text>
+  <text x="788" y="390" fill="#BFDBFE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Distributed Software + Resource Management + Observability</text>
+</g>
+
+<!-- 3 Radar -->
+<g filter="url(#shadow)">
+  <rect x="70" y="505" width="620" height="320" rx="26" class="card"/>
+  <rect x="70" y="505" width="620" height="8" rx="4" fill="#A855F7">
+    <animate attributeName="width" values="160;620;160" dur="9s" repeatCount="indefinite"/>
+  </rect>
+  <text x="108" y="564" class="h" font-size="28">📡 Radar + Signal AI + XAI</text>
+  <text x="108" y="600" fill="#E9D5FF" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Explainable micro-Doppler intelligence</text>
+  <text x="108" y="640" class="s" font-size="16">Spectrograms • CNN • CNN-LSTM • SVM • XGBoost • SHAP • Grad-CAM</text>
+  <text x="108" y="668" class="s" font-size="16">Connecting physical signal interpretation with deep learning explanations.</text>
+  <text x="108" y="708" class="m" font-size="13">Signal Processing  ML  DL  XAI  Radar Intelligence</text>
+  <text x="108" y="760" fill="#DDD6FE" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Signal Intelligence + Deep Learning + Explainability</text>
+</g>
+
+<!-- 4 Harmony -->
+<g filter="url(#shadow)">
+  <rect x="750" y="505" width="620" height="320" rx="26" class="card"/>
+  <rect x="750" y="505" width="620" height="8" rx="4" fill="#14B8A6">
+    <animate attributeName="width" values="170;620;170" dur="6.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="788" y="564" class="h" font-size="28">🧤 Harmony Gloves</text>
+  <text x="788" y="600" fill="#99F6E4" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">Wearable sensing & intelligent interaction</text>
+  <text x="788" y="640" class="s" font-size="16">ESP32 • IMU • Flex sensors • ESP-NOW • EMA/IIR • Kalman</text>
+  <text x="788" y="668" class="s" font-size="16">Embedded sensing, filtering and gesture-oriented intelligent interfaces.</text>
+  <text x="788" y="708" class="m" font-size="13">Embedded  IoT  Sensor Fusion  Filtering  Recognition</text>
+  <text x="788" y="760" fill="#CCFBF1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Embedded Systems + Signals + Intelligent Interfaces</text>
+</g>
+</svg>

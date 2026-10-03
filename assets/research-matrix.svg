@@ -1,0 +1,73 @@
+<svg width="1440" height="720" viewBox="0 0 1440 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="720">
+    <stop stop-color="#07101E"/>
+    <stop offset="1" stop-color="#101A35"/>
+  </linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="7" stdDeviation="11" flood-color="#000" flood-opacity=".28"/></filter>
+  <style>
+    .card{fill:#0F172A;stroke:rgba(255,255,255,.10)}
+    .h{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:800;fill:#F8FAFC}
+    .s{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#CBD5E1}
+    .m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#94A3B8}
+  </style>
+</defs>
+<rect width="1440" height="720" rx="30" fill="url(#bg)"/>
+<text x="70" y="62" class="h" font-size="34">Research Matrix</text>
+<text x="70" y="94" class="s" font-size="18">The main spaces I study, build and connect.</text>
+
+<g filter="url(#shadow)">
+  <rect x="70" y="135" width="400" height="150" rx="24" class="card"/>
+  <rect x="70" y="135" width="400" height="7" rx="3.5" fill="#22D3EE"/>
+  <text x="102" y="187" class="h" font-size="25">Distributed Systems</text>
+  <text x="102" y="223" class="s" font-size="16">resource scheduling • distributed data</text>
+  <text x="102" y="249" class="m" font-size="13">event-driven design • coordination • scale</text>
+
+  <rect x="520" y="135" width="400" height="150" rx="24" class="card"/>
+  <rect x="520" y="135" width="400" height="7" rx="3.5" fill="#3B82F6"/>
+  <text x="552" y="187" class="h" font-size="25">Systems Engineering</text>
+  <text x="552" y="223" class="s" font-size="16">OS • scheduling • concurrency • memory</text>
+  <text x="552" y="249" class="m" font-size="13">syscalls • cgroups • performance control</text>
+
+  <rect x="970" y="135" width="400" height="150" rx="24" class="card"/>
+  <rect x="970" y="135" width="400" height="7" rx="3.5" fill="#8B5CF6"/>
+  <text x="1002" y="187" class="h" font-size="25">AI / ML / Deep Learning</text>
+  <text x="1002" y="223" class="s" font-size="16">prediction • classification • XAI</text>
+  <text x="1002" y="249" class="m" font-size="13">NLP • recommendation • intelligent control</text>
+
+  <rect x="70" y="330" width="400" height="150" rx="24" class="card"/>
+  <rect x="70" y="330" width="400" height="7" rx="3.5" fill="#0EA5E9"/>
+  <text x="102" y="382" class="h" font-size="25">Cloud & Virtualization</text>
+  <text x="102" y="418" class="s" font-size="16">Proxmox • Xen / XCP-ng • Ceph</text>
+  <text x="102" y="444" class="m" font-size="13">SDN • HA • migration • provisioning</text>
+
+  <rect x="520" y="330" width="400" height="150" rx="24" class="card"/>
+  <rect x="520" y="330" width="400" height="7" rx="3.5" fill="#A855F7"/>
+  <text x="552" y="382" class="h" font-size="25">Intelligent Infrastructure</text>
+  <text x="552" y="418" class="s" font-size="16">GPUaaS • agents • autonomous orchestration</text>
+  <text x="552" y="444" class="m" font-size="13">observe • decide • enforce • adapt</text>
+
+  <rect x="970" y="330" width="400" height="150" rx="24" class="card"/>
+  <rect x="970" y="330" width="400" height="7" rx="3.5" fill="#06B6D4"/>
+  <text x="1002" y="382" class="h" font-size="25">Radar & Signal Intelligence</text>
+  <text x="1002" y="418" class="s" font-size="16">micro-Doppler • spectrograms • XAI</text>
+  <text x="1002" y="444" class="m" font-size="13">CNN • CNN-LSTM • SHAP • Grad-CAM</text>
+
+  <rect x="295" y="525" width="400" height="150" rx="24" class="card"/>
+  <rect x="295" y="525" width="400" height="7" rx="3.5" fill="#14B8A6"/>
+  <text x="327" y="577" class="h" font-size="25">IoT & Embedded Sensing</text>
+  <text x="327" y="613" class="s" font-size="16">ESP32 • sensors • filtering • fusion</text>
+  <text x="327" y="639" class="m" font-size="13">wearables • low power • recognition</text>
+
+  <rect x="745" y="525" width="400" height="150" rx="24" class="card"/>
+  <rect x="745" y="525" width="400" height="7" rx="3.5" fill="#F59E0B"/>
+  <text x="777" y="577" class="h" font-size="25">Algorithms & Optimization</text>
+  <text x="777" y="613" class="s" font-size="16">graphs • scheduling • resource allocation</text>
+  <text x="777" y="639" class="m" font-size="13">combinatorial optimization • routing</text>
+</g>
+
+<!-- subtle moving scan -->
+<rect x="-250" y="0" width="130" height="720" fill="#3B82F6" opacity=".035" transform="skewX(-12)">
+  <animate attributeName="x" values="-300;1600" dur="10s" repeatCount="indefinite"/>
+</rect>
+</svg>

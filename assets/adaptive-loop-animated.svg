@@ -1,0 +1,60 @@
+<svg width="1440" height="300" viewBox="0 0 1440 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1440" y2="300">
+    <stop stop-color="#08111F"/>
+    <stop offset="1" stop-color="#101A35"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <style>
+    .h{font-family:Inter,Segoe UI,Arial,sans-serif;font-weight:800;fill:#F8FAFC}
+    .s{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#CBD5E1}
+  </style>
+</defs>
+<rect width="1440" height="300" rx="28" fill="url(#bg)"/>
+<text x="70" y="58" class="h" font-size="32">Adaptive Systems Loop</text>
+<text x="70" y="89" class="s" font-size="17">The mental model behind my intelligent infrastructure work.</text>
+
+<g>
+  <rect x="65" y="140" width="170" height="95" rx="20" fill="#0F172A" stroke="#22D3EE" stroke-opacity=".35"/>
+  <text x="150" y="179" text-anchor="middle" class="h" font-size="23">Observe</text>
+  <text x="150" y="207" text-anchor="middle" class="s" font-size="14">telemetry • sensors</text>
+
+  <rect x="295" y="140" width="170" height="95" rx="20" fill="#0F172A" stroke="#38BDF8" stroke-opacity=".35"/>
+  <text x="380" y="179" text-anchor="middle" class="h" font-size="23">Model</text>
+  <text x="380" y="207" text-anchor="middle" class="s" font-size="14">state • data • abstraction</text>
+
+  <rect x="525" y="140" width="170" height="95" rx="20" fill="#0F172A" stroke="#60A5FA" stroke-opacity=".35"/>
+  <text x="610" y="179" text-anchor="middle" class="h" font-size="23">Predict</text>
+  <text x="610" y="207" text-anchor="middle" class="s" font-size="14">ML • analytics</text>
+
+  <rect x="755" y="140" width="170" height="95" rx="20" fill="#0F172A" stroke="#818CF8" stroke-opacity=".35"/>
+  <text x="840" y="179" text-anchor="middle" class="h" font-size="23">Decide</text>
+  <text x="840" y="207" text-anchor="middle" class="s" font-size="14">policy • planning</text>
+
+  <rect x="985" y="140" width="170" height="95" rx="20" fill="#0F172A" stroke="#A78BFA" stroke-opacity=".35"/>
+  <text x="1070" y="179" text-anchor="middle" class="h" font-size="23">Act</text>
+  <text x="1070" y="207" text-anchor="middle" class="s" font-size="14">schedule • migrate</text>
+
+  <rect x="1215" y="140" width="160" height="95" rx="20" fill="#0F172A" stroke="#C084FC" stroke-opacity=".35"/>
+  <text x="1295" y="179" text-anchor="middle" class="h" font-size="23">Adapt</text>
+  <text x="1295" y="207" text-anchor="middle" class="s" font-size="14">learn • improve</text>
+</g>
+
+<g stroke="#60A5FA" stroke-opacity=".5" stroke-width="3" stroke-dasharray="9 10">
+  <path d="M235 188H295"/>
+  <path d="M465 188H525"/>
+  <path d="M695 188H755"/>
+  <path d="M925 188H985"/>
+  <path d="M1155 188H1215"/>
+</g>
+
+<circle r="6" fill="#22D3EE" filter="url(#glow)">
+  <animateMotion dur="7s" repeatCount="indefinite" path="M235 188H295 465 525 695 755 925 985 1155 1215"/>
+</circle>
+<circle r="6" fill="#A855F7" filter="url(#glow)">
+  <animateMotion dur="7s" begin="2.3s" repeatCount="indefinite" path="M235 188H295 465 525 695 755 925 985 1155 1215"/>
+</circle>
+<circle r="6" fill="#60A5FA" filter="url(#glow)">
+  <animateMotion dur="7s" begin="4.6s" repeatCount="indefinite" path="M235 188H295 465 525 695 755 925 985 1155 1215"/>
+</circle>
+</svg>
